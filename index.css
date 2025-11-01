@@ -36,3 +36,7 @@
   --space-100: 0.5rem;
   --space-50: 0.25rem;
 }
+
+body {
+  background-color: var(--color-yellow);
+}
