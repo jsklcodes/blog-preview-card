@@ -1,7 +1,38 @@
+@font-face {
+  font-family: 'Figtree Extra Bold';
+  src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Figtree Medium';
+  src: url(assets/fonts/static/Figtree-Medium.ttf);
+  font-weight: 500;
+}
+
 *,
 ::before,
 ::after {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+:root {
+  --color-yellow: #f4d04e;
+  --color-gray-950: #111111;
+  --color-gray-500: #6b6b6b;
+  --color-white: #ffffff;
+
+  --font-family-extrabold: 'Figtree Extra Bold', sans-serif;
+  --font-family-medium: 'Figtree Medium', sans-serif;
+
+  --font-size-large: 1.5rem;
+  --font-size-base: 1rem;
+  --font-size-small: 0.875rem;
+
+  --space-300: 1.5rem;
+  --space-150: 0.75rem;
+  --space-100: 0.5rem;
+  --space-50: 0.25rem;
 }
