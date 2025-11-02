@@ -64,3 +64,13 @@ img {
 .blog-preview-card__image {
   border-radius: 0.625rem;
 }
+
+/* MARK: badge */
+.badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  background-color: var(--color-yellow);
+  font-family: var(--font-family-extrabold);
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
