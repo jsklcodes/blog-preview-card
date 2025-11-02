@@ -63,6 +63,8 @@ img {
 
 .blog-preview-card__image {
   border-radius: 0.625rem;
+  height: 12.5rem;
+  object-fit: cover;
 }
 
 .blog-preview-card__content {
