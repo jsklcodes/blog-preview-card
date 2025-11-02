@@ -92,6 +92,12 @@ img {
   color: var(--color-gray-500);
 }
 
+.blog-preview-card__author {
+  font-family: var(--font-family-extrabold);
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
 /* MARK: badge */
 .badge {
   padding: 0.25rem 0.75rem;
