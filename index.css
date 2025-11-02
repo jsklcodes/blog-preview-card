@@ -60,3 +60,7 @@ img {
   width: calc(5.35vw + 19.1875rem);
   margin-inline: auto;
 }
+
+.blog-preview-card__image {
+  border-radius: 0.625rem;
+}
