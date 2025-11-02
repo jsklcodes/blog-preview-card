@@ -38,6 +38,8 @@
 }
 
 body {
+  min-block-size: 100vh;
+  align-content: center;
   background-color: var(--color-yellow);
 }
 
